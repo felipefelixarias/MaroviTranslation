@@ -62,18 +62,18 @@ A tool for translating PDF documents to Spanish in Markdown format, specifically
 
 - `MaroviTranslation/`
   - `converters/`: Modules for parsing, translation, and markdown generation.
-    - `NeurIPS.py`:
+    - `NeurIPS.py`: Class for converting NeurIPS PDF to Spanish markdowns.
   - `markdown/`: Modules for handling Markdown generation.
     - `core.py`: Core functionalities for Markdown manipulation.
   - `outputs/`: Output directory for generated Markdown files and images.
   - `parsing/`: Modules for parsing PDF files.
-    - `core.py`: 
+    - `core.py`: Core pasrsing class.
     - `NeurIPSParser.py`: Parser specific for NeurIPS papers.
   - `pdfs/`: Directory to place PDF files for conversion.
   - `translation/`: Translation modules.
     - `core.py`: Core translation class.
     - `GoogleTranslator.py`: Google Translator API wrapper.
-  - `tutorial`
+  - `tutorial/` Tutorial script.
     - `NeurIPSExample.py`: Script with example usage.
 - `requirements.txt`: List of project dependencies.
 - `setup.py`: Setup script for installing the project.
