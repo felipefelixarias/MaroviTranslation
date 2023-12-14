@@ -35,7 +35,9 @@ A tool for translating PDF documents to Spanish in Markdown format, specifically
 1. **PDF to Markdown Conversion:**
    A working example is available in `MaroviTranslation/tutorial/NeurIPSExample.py`. 
    Run it with the following command.
-   ```python MaroviTranslation/tutorial/NeurIPSExample.py```
+   ```python 
+    python MaroviTranslation/tutorial/NeurIPSExample.py
+   ```
    The markdowns will be saved in `MaroviTranslation/outputs/`
    More generally, use the `NeurIPSPDFToSpanishMarkdown` class to convert a PDF file into a Spanish Markdown file. Example usage:
    ```python
