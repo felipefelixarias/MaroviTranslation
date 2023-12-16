@@ -2,6 +2,8 @@
 
 A tool for translating PDF documents to Spanish in Markdown format, specifically tailored for NeurIPS papers.
 
+The video presentation can be found here https://youtu.be/r2CcKOnehs4
+
 ## Installation
 
 ### Prerequisites
