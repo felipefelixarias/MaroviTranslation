@@ -3,7 +3,18 @@
 
 A tool for translating PDF documents to Spanish in Markdown format, specifically tailored for NeurIPS papers.
 
-The video presentation can be found here https://youtu.be/r2CcKOnehs4
+### Note
+
+This project is currently undergoing a revamp to create a beta version for translating any PDF locally. Core features under development include:
+
+- Incorporating GROBID for PDF parsing
+- Integrating the Google Translate API (the current googletrans version uses an outdated API)
+- Adding ChatGPT for agentic translation
+- Refactoring and introducing new features to prepare the CLI for pip
+
+Please reach out if you are interested in contributing or working on any of these features.
+
+The video presentation for the first version can be found here https://youtu.be/r2CcKOnehs4
 
 ## Installation
 
