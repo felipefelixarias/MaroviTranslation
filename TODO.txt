@@ -1,0 +1,10 @@
+  - Add pypandoc as a dependency to setup.py and requirements.txt (URGENT)
+  - Make installation instructions for Grobid Service (docker)  (URGENT)
+    - command to download docker image
+    - launching the service
+        - sudo docker run --rm --gpus all --init --ulimit core=0 -p 8070:8070 grobid/grobid:0.8.0
+  - Make installation instructions for pandoc (apt-get install pandoc )
+  - Debug grobid.py (only got things to work by pinging the service with curl) (URGENT if curl doesnt allow the below)
+  - Change grobid output from .tei.xml to html (URGENT)
+  - Turn html into google doc (URGENT)
+  - Revise naming conventions to mirror Snorkel

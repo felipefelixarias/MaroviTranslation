@@ -7,8 +7,8 @@ setup(
     install_requires=[
         'PyMuPDF>=1.23.6',
         'markdown2>=2.4.10',
-        'googletrans==4.0.0-rc1'
-        # 'nltk>=3.5',
+        'googletrans==4.0.0-rc1',
+        'grobid-client-python',
     ],
     author='Felipe Felix Arias',
     author_email='felipefelixarias@gmail.com',

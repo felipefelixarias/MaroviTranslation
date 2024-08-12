@@ -1,3 +1,4 @@
 PyMuPDF>=1.23.6
 markdown2>=2.4.10
 googletrans==4.0.0-rc1
+grobid-client-python
